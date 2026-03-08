@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global behavior */
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+/* Base look */
+body {
+  @apply bg-white text-slate-800 antialiased;
+}
+
+/* Reusable glass card */
+.glass {
+  @apply bg-white/80 backdrop-blur-xl border border-slate-200 shadow-lg;
+}
+
+
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f8fafc; /* soft medical background */
+  overflow-x: hidden;
+}
+.auth-input-ultra {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border-radius: 0.9rem;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  color: #0f172a;
+  border: 1px solid #e2e8f0;
+  outline: none;
+  transition: all 0.25s ease;
+}
+
+.auth-input-ultra::placeholder {
+  color: #94a3b8;
+}
+
+.auth-input-ultra:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37,99,235,0.15);
+}
+.body-dna {
+  background: url("/dna.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
