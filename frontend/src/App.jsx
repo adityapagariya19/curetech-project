@@ -9,6 +9,7 @@ import Profile from "./pages/profile";
 import Analyzing from "./pages/Analyzing";
 import About from "./pages/About";
 import BloodReport from "./pages/BloodReport";
+
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col">
@@ -24,7 +25,7 @@ export default function App() {
           <Route path="/Auth" element={<Auth />} />
           <Route path="/Profile" element={<Profile />} />
           <Route path="/About" element={<About />} />
-           <Route path="/blood-report" element={<BloodReport />} />
+          <Route path="/blood-report" element={<BloodReport />} />
         </Routes>
       </main>
 

@@ -9,9 +9,7 @@ from utils.auth import (
 
 router = APIRouter(tags=["Auth"])
 
-# Temporary in-memory storage
 fake_users_db = {}
-
 
 @router.post("/signup")
 def signup(user: UserSignup):
@@ -30,7 +28,6 @@ def signup(user: UserSignup):
 
     return {"message": "Signup successful"}
 
-
 @router.post("/login")
 def login(user: UserLogin):
     db_user = fake_users_db.get(user.email)
@@ -39,28 +36,16 @@ def login(user: UserLogin):
         raise HTTPException(status_code=401, detail="Invalid email or password")
 
     token = create_access_token({"sub": user.email})
-
-    return {
-        "access_token": token,
-        "token_type": "bearer"
-    }
-
+    return {"access_token": token, "token_type": "bearer"}
 
 @router.get("/profile")
 def profile(email: str = Depends(get_current_user)):
-    user = fake_users_db.get(email)
-    if not user:
-        raise HTTPException(status_code=404, detail="User not found")
-    return user
-
+    return fake_users_db[email]
 
 @router.put("/profile")
 def update_profile(
     updated: dict,
     email: str = Depends(get_current_user)
 ):
-    if email not in fake_users_db:
-        raise HTTPException(status_code=404, detail="User not found")
-
     fake_users_db[email].update(updated)
-    return {"message": "Profile updated successfully"}
+    return {"message": "Profile updated"}
