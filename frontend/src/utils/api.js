@@ -1,4 +1,4 @@
-const BASE = "http://127.0.0.1:8000";
+const BASE = "https://curetech-project.onrender.com";
 
 function token() { return localStorage.getItem("token"); }
 
