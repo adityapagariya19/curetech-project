@@ -40,9 +40,9 @@ export default function Auth() {
 
     try {
       const url =
-        mode === "login"
-          ? "http://127.0.0.1:8000/auth/login"
-          : "http://127.0.0.1:8000/auth/signup";
+      mode === "login"
+        ? "https://curetech-project.onrender.com/auth/login"
+        : "https://curetech-project.onrender.com/auth/signup";
 
       const res = await fetch(url, {
         method: "POST",
