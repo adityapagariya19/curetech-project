@@ -1,0 +1,22 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/uploads/
+
+# Google Vision key — NEVER commit this
+backend/credentials/google_vision.json
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# demo_reports are intentionally included in git (real test reports)
+# !backend/demo_reports/
