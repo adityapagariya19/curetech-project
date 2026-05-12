@@ -28,8 +28,8 @@ app.include_router(reports.router)
 def root():
     return {
         "status": "CureTech API v2.0 running",
-        "docs": "http://127.0.0.1:8000/docs",
-        "ocr_check": "http://127.0.0.1:8000/ocr-status",,
+        "docs": "/docs",
+        "ocr_check": "/ocr-status",
     }
 
 @app.get("/ocr-status", tags=["Health"])
