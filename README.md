@@ -6,7 +6,7 @@
 
 # AI-Powered Medical Report Analyzer
 
-### Transforming Complex Medical Reports into Human-Friendly Health Insights
+### AI-Powered Healthcare Analytics for Smarter Medical Understanding
 
 CureTech is a modern full-stack healthcare intelligence platform that uses **AI**, **OCR**, and **interactive analytics** to simplify medical laboratory reports into visually understandable dashboards.
 
