@@ -23,10 +23,8 @@ CureTech is a modern full-stack healthcare intelligence platform that uses **AI*
 
 ## 🚀 Live Demo
 
-Replace with your deployed frontend URL
-
 ```bash
-https://your-project.vercel.app
+https://curetech-project.vercel.app/
 ```
 
 </div>
@@ -376,8 +374,8 @@ Our vision is to make healthcare reports more understandable, accessible, and in
 
 <div align="center">
 
-# ❤️ Built by Team CureTech
+❤️ Built by Team CureTech
 
-### Making Medical Reports Human-Friendly Through AI
+Making Medical Reports Human-Friendly Through AI
 
 </div>
