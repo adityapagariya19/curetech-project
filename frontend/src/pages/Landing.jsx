@@ -71,7 +71,7 @@ const team = [
       "Built FastAPI backend, OCR integration with pdfplumber and pytesseract, JWT authentication, biomarker extraction pipeline, and report parsing engine.",
   },
   {
-    name: "Sohail Sayyed",
+    name: "Sohel Sayyed",
     role: "QA Engineer — Testing, Debugging & Technical Documentation",
     email: "sohelsayyed770@gmail.com",
     linkedin: "https://www.linkedin.com/in/sohel-sayyed-a2871731a",
