@@ -200,18 +200,6 @@ API docs at **http://127.0.0.1:8000/docs**
 6. Click any parameter card → 4-tab deep-dive with charts, action plan, doctor questions
 
 ---
-
-## Demo Reports
-
-Two real blood test reports are included for immediate testing:
-
-| File | Patient | Date | Score | Result |
-|------|---------|------|-------|--------|
-| `13802.png` | RAMESH KUMAR, 35Y/Male | 13-May-2024 | **95/100** | All 15 parameters normal |
-| `IMG-20260118-WA0006.pdf` | MS. SHIVANSHRI KADAM, 19Y/Female | 09-Jan-2026 | **78/100** | RDW-CV high (16.9%), WBC high (10,840) |
-
----
-
 ## API Reference
 
 Base URL: `http://127.0.0.1:8000`
