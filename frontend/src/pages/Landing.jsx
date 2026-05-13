@@ -53,31 +53,30 @@ const technologies = [
   },
 ];
 
-
 const team = [
   {
     name: "Aditya Pagariya",
-    role: "Full Stack Developer & Product Lead",
-    email: "aditya@example.com",
-    linkedin: "https://linkedin.com",
+    role: "Full Stack Developer specialising in premium React UIs, AI-powered dashboards, and end-to-end SaaS product development",
+    email: "adityapagariya1906@gmail.com",
+    linkedin: "https://www.linkedin.com/in/aditya-pagariya-45545a328",
     contribution:
-      "Designed UI architecture, dashboards, animations, and product flow.",
+      "Led full product architecture, built the entire React frontend, designed all 5 medical report dashboards, animations, AI health scoring engine, and managed end-to-end integration.",
   },
   {
-    name: "AI Engineer",
-    role: "Medical AI & Logic",
-    email: "ai@example.com",
-    linkedin: "https://linkedin.com",
+    name: "Omkar Patange",
+    role: "Backend Developer specialising in Python APIs, OCR data pipelines, and medical report processing systems",
+    email: "patangeomkar18@gmail.com",
+    linkedin: "https://www.linkedin.com/in/omkar-patange-91b545334",
     contribution:
-      "Built report interpretation logic, thresholds, and AI confidence flow.",
+      "Built FastAPI backend, OCR integration with pdfplumber and pytesseract, JWT authentication, biomarker extraction pipeline, and report parsing engine.",
   },
   {
-    name: "UI/UX Designer",
-    role: "Healthcare UX",
-    email: "ui@example.com",
-    linkedin: "https://linkedin.com",
+    name: "Sohail Sayyed",
+    role: "QA Engineer — Testing, Debugging & Technical Documentation",
+    email: "sohelsayyed770@gmail.com",
+    linkedin: "https://www.linkedin.com/in/sohel-sayyed-a2871731a",
     contribution:
-      "Designed patient-friendly UX and premium medical visual system.",
+      "Handled end-to-end testing, bug reporting, and technical documentation for the CureTech platform.",
   },
 ];
 
