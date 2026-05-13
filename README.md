@@ -21,7 +21,7 @@ Transform complex medical reports into interactive health insights using AI, OCR
 Replace with your deployed Vercel URL
 
 ```bash
-https://your-project.vercel.app
+https://share.google/5xPE6jAYTf18yMTGx
 ```
 
 </div>
