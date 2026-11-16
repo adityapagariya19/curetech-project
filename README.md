@@ -379,3 +379,4 @@ Our vision is to make healthcare reports more understandable, accessible, and in
 Making Medical Reports Human-Friendly Through AI
 
 </div>
+
